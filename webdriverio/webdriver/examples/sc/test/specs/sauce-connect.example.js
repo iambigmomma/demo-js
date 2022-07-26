@@ -1,7 +1,7 @@
-describe('My sauce demo app', () => {
+describe('FORK-JF-LOCALHOST', () => {
     it('should open', async () => {
-        await browser.navigateTo('https://www.saucedemo.com');
-        await expect(await $('#login-button').isDisplayed()).toBeTrue();
+        await browser.navigateTo('http://localhost:8000');
+        //await expect(await $('#login-button').isDisplayed()).toBeTrue();
     });
 });
 
